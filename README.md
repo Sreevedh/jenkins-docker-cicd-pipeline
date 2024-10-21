@@ -8,6 +8,7 @@ This project demonstrates how to set up a CI/CD pipeline using Jenkins and Docke
 
 1. **Create four VMs**:
    - VMs: **docker**, **jenkins**, **jenkins_slave**, and **docker_repo** (using Vagrant with CentOS OS).
+   - [Centos 9]([(https://github.com/Sreevedh/django_ecommerce_website)](https://portal.cloud.hashicorp.com/vagrant/discover/eurolinux-vagrant/centos-stream-9))
 
 2. **Install necessary components**:
    - Install **Jenkins** and **Docker** on both `jenkins` and `jenkins_slave` VMs.
