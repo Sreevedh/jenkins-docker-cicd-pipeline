@@ -1,6 +1,6 @@
 # jenkins-docker-cicd-pipeline
 # STEP 1 : 
-- Up four vm - docker, Jenkins, jenkins_slave, docker_repo
+- Up four vm - docker, Jenkins, jenkins_slave, docker_repo ( i used vagrant to up the vm's)
 - install jenkins, docker in jenkins and jenkins_slave
 - install git in jenkins and jenkins slave
 - install docker in docker and docker repo
@@ -10,7 +10,7 @@
 - open the jenkins master ui ( localhost:8080 ) and install plugins and sign in
 
 ## STEP 2
- - Slave building*
+      #### Setting up jenkins slave
     - create a vm, create a user ( or keep the user as it is). install jenkins.
     - do `ssh-keygen -t rsa` command, copy the `private key` and paste it in the “new node” configuration.
     - SELECT NONE HOST VERIFICATION STRATEGY UNDER VERFICATION IN NODE CONFIGURATION.
