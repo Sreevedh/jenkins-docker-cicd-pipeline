@@ -82,14 +82,18 @@ This project demonstrates how to set up a CI/CD pipeline using Jenkins and Docke
 
 1. **Create a new pipeline project**:
    - Go to **New Item** → **Pipeline Project**.
+   - Check the box where you see **GitHub hook trigger for GITScm polling**
    - Select **Pipeline from SCM**.
 
 2. **Jenkinsfile**:
    - Ensure the `Jenkinsfile` is available in your GitHub repository or SCM source from which Jenkins will pull the code.
 
 ---
-
-## **Step 6: SSH Configuration**
+## **Step 6: Project Setup in Jenkins**
+   - Expose your local Jenkins url using ngrok.
+   - Set up the GitHub hook with the url provided by ngrok for the local Jenkins.
+---
+## **Step 7: SSH Configuration**
 
 1. **Install SSH Agent Plugin in Jenkins**:
    - Navigate to **Manage Jenkins** → **Manage Plugins** → Search and install **SSH Agent Plugin**.
